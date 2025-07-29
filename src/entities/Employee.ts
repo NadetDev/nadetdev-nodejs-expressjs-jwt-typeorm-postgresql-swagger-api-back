@@ -10,7 +10,7 @@ import { IsDateString, IsEnum, IsNotEmpty } from 'class-validator';
 export enum EmployeeStatus {
   ACTIVE = 'active',
   ABSENT = 'absent',
-  QUIT = 'quitte',
+  QUITTE = 'quitte',
 }
 
 @Entity('employees')
